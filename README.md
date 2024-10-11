@@ -1,4 +1,4 @@
-# Vision Caster
+# Real-Time-Image-Analysis-and-Auditory-Guidance-for-the-Visually-Impaired
 
 This project involves the development of an interactive image analysis and feedback system designed specifically for visually impaired users. By integrating the BLIP (Bootstrapping Language-Image Pre-training) model from Salesforce, optimized for CPU usage, the system processes images on a Raspberry Pi to provide real-time descriptive captions and auditory feedback.
 
