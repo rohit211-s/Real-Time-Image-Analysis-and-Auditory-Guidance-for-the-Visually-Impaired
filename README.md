@@ -3,7 +3,7 @@
 This project involves the development of an interactive image analysis and feedback system designed specifically for visually impaired users. By integrating the BLIP (Bootstrapping Language-Image Pre-training) model from Salesforce, optimized for CPU usage, the system processes images on a Raspberry Pi to provide real-time descriptive captions and auditory feedback.
 
 <div align=center>
- <img src="./images/model_output.png" width=400 >
+ <img src="./images/Image_1.png" width=400 >
 </div>
 
 
