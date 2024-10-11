@@ -1,6 +1,6 @@
 # Real-Time-Image-Analysis-and-Auditory-Guidance-for-the-Visually-Impaired
 
-This project involves the development of an interactive image analysis and feedback system designed specifically for visually impaired users. By integrating the BLIP (Bootstrapping Language-Image Pre-training) model from Salesforce, optimized for CPU usage, the system processes images on a Raspberry Pi to provide real-time descriptive captions and auditory feedback.
+This project focuses on creating an interactive image analysis and feedback system tailored for visually impaired users. By leveraging the BLIP (Bootstrapping Language-Image Pre-training) model from Salesforce, which has been optimized for CPU performance, the system is capable of processing images on a Raspberry Pi and providing real-time auditory descriptive feedback.
 
 <div align=center>
  <img src="./images/Image_1.png" width=400 >
@@ -9,21 +9,20 @@ This project involves the development of an interactive image analysis and feedb
 
 ## System Overview
 
-The system captures images using the Raspberry Pi Camera Module 2, processes these images to generate descriptive captions through the BLIP model, and communicates these captions audibly through a USB speaker. Additionally, system statuses and captions are displayed on an LCD screen in real-time. The system also supports uploading the image and its caption to a custom-built Azure server for record-keeping.
+The system uses the Raspberry Pi Camera Module 2 to capture images, then processes them through the BLIP model to generate descriptive captions. These captions are delivered via a USB speaker for auditory feedback. Additionally, system information and generated captions are displayed on an LCD screen for users who have some degree of vision. The system also integrates with a custom Azure server to upload images and their associated captions for storage and further analysis.
 
-
-<div align=center>
- <img src="./images/architecture.png" width=500 >
-</div>
 
 
 
 ## Key Features
-- **Real-time Image Processing**: Captions generated in real-time to reduce latency and enhance usability for visually impaired users.
-- **Auditory Feedback**: Descriptive captions and system statuses provided through auditory output, enhancing accessibility.
-- **Visual Display**: LCD screen displays captions and system statuses for users with partial vision.
-- **Cloud Integration**: Captions and images are stored on an Azure server, allowing for remote access and further analysis.
+- **Immediate Image Processing**: Images are processed on the Raspberry Pi to generate captions with minimal delay, ensuring a smooth and responsive experience for visually impaired users.
+- **Auditory Output**:  The system provides descriptive feedback and status updates through a USB-connected speaker, making it more accessible for those with vision impairments.
+- **LCD Display Support**: Captions and system statuses are displayed on an LCD screen, catering to users who may have partial vision and prefer visual feedback.
+- **Cloud Connectivity**: The system uploads both images and their captions to a dedicated Azure server, enabling remote access and potential for additional analysis or record-keeping.
+
 <br/>
+
+ 
 
 
 ## Hardware Components
